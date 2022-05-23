@@ -21,7 +21,7 @@ fs.readdir("05-merge-styles/styles", {withFileTypes: true}, function(err, items)
         let input = fs.createReadStream("05-merge-styles/styles/"+item.name, 'utf-8');
     input.pipe(output);
 
-            console.log(item.name)
+          
             
         }
     }})
